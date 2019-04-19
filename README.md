@@ -1,10 +1,10 @@
 # nginx-for-ecs
 
-###After download files to storege
+##After download files to storege
 
     chmod -R 65534:65534 /path/files/
 
-###Code for CloudFormation
+##Code for CloudFormation
 
         "Fn::Base64": !Join
           -
